@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    background-color: #F2EFED;
+}
+
+a {
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    margin: 0 4rem;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+}
+
+nav li {
+    padding-left: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.carousel {
+    width: 80%;
+    height: 250px;
+    position: relative;
+}
+
+.carousel .switchLeft, 
+.carousel .switchRight {
+    color: #000000;
+    font-size: 45px;
+    font-weight: bold;
+    height: 100%;
+    width: 45px;
+    line-height: 250px;
+    text-align: center;
+    top: 0;
+    z-index: 3;
+    opacity: 40%;
+}
+
+.switchLeft {
+    position: absolute;
+    left: -50px;
+}
+
+.switchRight {
+    position: absolute;
+    right: -50px;
+}
+
+/*Blog Content*/
+
+.blogContainer {
+    width: 80%;
+    align-items: center;
+}
+
+.results {
+    padding: 20px;
+}
+
+.blogContainer h3{
+    color: #000000;
+    font-size: 24px;
+}
+
+.blogContainer img {
+    height: 250px;
+    margin: 20px 0;
+}
+
+.blogContainer p, ul, ol{
+    font-family: 'Eb Garamond', 'sans-serif';
+    color: #000000;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-left {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-right, ul {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+}
+
+.footer-right, ul, li {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    color: #DEBFAD;
+    font-size: 50px;
+}
+
+.socials i {
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    nav li {
+        padding: 0.5rem 0;
+    }
+}
