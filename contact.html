@@ -18,7 +18,7 @@
     <header>
         <nav>
             <h2>
-                Beauty Blog    
+                <a href="index.html">Beauty Blog</a> 
             </h2>
             <ul>
                 <li><a href="#">Makeup</a></li>
@@ -30,6 +30,48 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section id="contactContainer">
+            <div class="back">
+                <a href="index.html">Home</a>/ Contact
+            </div>
+            <h1>Get in touch</h1>
+            <div class="contactContainer">
+                <div class="loader"></div>
+                <form id="contactForm">
+                    <div>
+                      <label>
+                        Name
+                        <input name="name" id="name" />
+                      </label>
+                      <div class="formError" id="nameError">Please enter your name.</div>
+                    </div>
+                    <div>
+                        <label>
+                          Email
+                          <input name="email" id="email" />
+                        </label>
+                        <div class="formError" id="emailError">Please enter your email address.</div>
+                      </div>
+                      <div>
+                    <div>
+                      <label>
+                        Subject (minimum 15 characters)
+                        <input name="subject" id="subject" />
+                      </label>
+                      <div class="formError" id="subjectError">Your entry must be at least 15 characters.</div>
+                    </div>
+                      <label>
+                        Message (minimum of 25 characters)
+                        <input name="message" id="message" />
+                      </label>
+                      <div class="formError" id="messageError">Your entry must be of at least 25 characters.</div>
+                    </div>
+                    <button>Submit</button>
+                  </form>   
+            </div>
+        </section>
+    </main>
     <footer> 
         <div class="footer-left">
             <h1>Beauty Blog</h1>
@@ -49,5 +91,6 @@
             </ul>
         </div>
     </footer>
+    <script src="js/contact.js"></script>
 </body>
 </html>

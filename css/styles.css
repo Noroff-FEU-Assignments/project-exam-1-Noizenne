@@ -81,6 +81,7 @@ main {
 .blogContainer {
     width: 80%;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .results {
@@ -97,13 +98,19 @@ main {
     margin: 20px 0;
 }
 
-.blogContainer p, ul, ol{
+.blogContainer p,
+.blogContainer ul,
+.blogContainer ol{
     font-family: 'Eb Garamond', 'sans-serif';
     color: #000000;
     font-size: 20px;
 }
 
 /*Individual blog posts*/
+
+.blogPageContainer {
+    padding-bottom: 2rem;
+}
 
 .blogInfo {
     display: flex;
@@ -141,6 +148,54 @@ main {
     padding-top: 1rem;
 }
 
+/*Contact Form*/
+
+#contactContainer h1{
+    font-size: 30px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.contactContainer {
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    color: #000000;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#message {
+    height: 150px;
+}
+
+button {
+    border: #000000 solid 1px;
+    border-radius: 1rem;
+    width: 150px;
+    padding: 1rem;
+    color: #000000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.formError {
+    display: none;
+    font-weight: bold;
+    color: crimson;
+    font-size: 13px;
+    margin-top: 2px;
+}
 
 
 footer {
