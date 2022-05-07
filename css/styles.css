@@ -103,6 +103,46 @@ main {
     font-size: 20px;
 }
 
+/*Individual blog posts*/
+
+.blogInfo {
+    display: flex;
+    width: 80%;
+}
+.back {
+    width: 80%
+}
+.blogDate {
+    width: 20%;
+    text-align: end;
+}
+
+.postContainer h1 {
+    text-align: center;
+}
+
+.postContainer img {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+
+.postContainer p, 
+.postContainer ol, 
+.postContainer ul {
+    font-family: 'Eb Garamond', sans-serif; 
+    font-size: 20px;
+    width: 80%;
+    text-align: start;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+
+
 footer {
     display: flex;
     width: 80%;
@@ -113,13 +153,15 @@ footer {
     width: 80%;
     font-family: 'Poppins', sans-serif;
 }
-.footer-right, ul {
+.footer-right, .footer-right ul {
     text-align: left;
     font-family: 'Poppins', sans-serif;
     white-space: nowrap;
 }
 
-.footer-right, ul, li {
+.footer-right,
+.footer-right ul,
+.footer-right li {
     padding-bottom: 15px;
     font-weight: bold;
 }
