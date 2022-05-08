@@ -168,6 +168,28 @@ main {
     padding-top: 1rem;
 }
 
+/*Category*/
+
+.categoryContainer {
+    width: 80%;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.categoryContainer img {
+    height: 250px;
+}
+
+.categoryContainer p, 
+.categoryContainer ol, 
+.categoryContainer ul {
+    font-family: 'Eb Garamond', sans-serif; 
+    font-size: 20px;
+    width: 80%;
+    text-align: start;
+    padding-top: 1rem;
+}
+
 /*Contact Form*/
 
 #contactContainer h1{

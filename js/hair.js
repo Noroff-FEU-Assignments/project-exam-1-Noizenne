@@ -1,4 +1,4 @@
-const hairUrl = "https://www.kmrabe.site/wp-json/wp/v2/posts?categories=35&_embed";
+const hairUrl = "https://www.kmrabe.site/wp-json/wp/v2/posts?categories=36&_embed";
 
 const hairContainer = document.querySelector(".categoryContainer");
 
