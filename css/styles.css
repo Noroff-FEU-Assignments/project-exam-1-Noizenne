@@ -111,11 +111,13 @@ main {
 .blogContainer h3{
     color: #000000;
     font-size: 24px;
+    padding-left: 35%;
 }
 
 .blogContainer img {
     height: 250px;
     margin: 20px 0;
+    padding-left: 30%;
 }
 
 .blogContainer p,
@@ -139,6 +141,7 @@ main {
 .back {
     width: 80%
 }
+
 .blogDate {
     width: 20%;
     text-align: end;
