@@ -111,13 +111,15 @@ main {
 .blogContainer h3{
     color: #000000;
     font-size: 24px;
-    padding-left: 35%;
+    text-align: center;
+
 }
 
 .blogContainer img {
     height: 250px;
-    margin: 20px 0;
-    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .blogContainer p,
