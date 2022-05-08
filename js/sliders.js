@@ -2,6 +2,7 @@ const Url = "https://www.kmrabe.site/wp-json/wp/v2/posts?per_page=20&_embed";
 
 const carousel = document.querySelector(".carousel");
 
+
 async function getPost() {
     try {
         const response = await fetch(url);

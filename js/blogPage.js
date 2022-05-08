@@ -9,7 +9,7 @@ console.log(blogId);
 
 const url = "https://www.kmrabe.site/wp-json/wp/v2/posts/" + blogId + "?_embed";
 
-
+const loading = document.querySelector(".loader");
 
 async function getPost() {
     try {

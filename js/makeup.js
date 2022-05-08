@@ -2,6 +2,8 @@ const hairUrl = "https://www.kmrabe.site/wp-json/wp/v2/posts?categories=35&_embe
 
 const hairContainer = document.querySelector(".categoryContainer");
 
+const loading = document.querySelector(".loader");
+
 async function getHairPost() {
     try {
         const response = await fetch(hairUrl);

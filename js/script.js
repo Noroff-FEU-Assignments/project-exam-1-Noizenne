@@ -2,6 +2,8 @@ const url = "https://www.kmrabe.site/wp-json/wp/v2/posts?per_page=20&_embed";
 
 const blogContainer = document.querySelector(".blogContainer");
 
+const loading = document.querySelector(".loader");
+
 async function getBlogPost() {
     try {
         const response = await fetch(url);
@@ -31,4 +33,3 @@ async function getBlogPost() {
 }
 
 getBlogPost();
-
