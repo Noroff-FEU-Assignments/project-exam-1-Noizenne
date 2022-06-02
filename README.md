@@ -1,67 +1,50 @@
-## Project Exam 1
+<h1>Project Exam 1: Beauty BLog</h1>
 
-## Goal
+![image](https://user-images.githubusercontent.com/73695367/171691704-9589b61d-a28b-4461-85fd-3a3097087a95.png)
 
-To put into practice the skills learned over your first year of studies.
+Project Exam 1 at Noroff Spring/Summer 2022. 
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+<hr>
 
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+<h2>Description</h2>
 
-### Blog Page
+This is the project where we showcase what we learned during the first year in the form of a blog site. I chose to use a beauty-themed design and topic. We had to use WordPress to provide as an API to add content. 
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+<h3>Contains</h3>
+* Home page with a carousel.
+* Specific blog page.
+* Contact Page.
+* About us page. 
 
-### Blog Specific Page
+<hr>
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+<h2>Built with</h2>
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+* HTML
+* CSS
+* JavaScript
 
-### Contact page
+<hr>
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+<h2>Getting Started</h2>
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+<h3>Hosted by Netlify</h3>
 
-### WordPress
+[https://peaceful-hopper-5e3761.netlify.app](https://cosmic-pudding-302fb0.netlify.app/index.html)
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+or
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+<h3>Host Locally</h3>
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+1. Download the zipfile and the extract the folder to this repo.
+2. Open the files in VSC.
+3. Install the Live Server plugin.
+4. Click "Go Live" on the bottom right.
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+<hr>
 
-## Level 1 Process
+<h2>Contact</h2>
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
+You can contact me on:
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
-
+<a href="https://www.linkedin.com/in/karla-mae-rabe-71b1351b5">LinkedIn</a>
